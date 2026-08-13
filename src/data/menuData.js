@@ -54,7 +54,7 @@ export const menuData = [
   {
     id: 'm8', price: 55, rating: 4.9, type: ['hot'], category: 'drinks',
     image: '/Image/LINE_ALBUM_1382026_260813_8.jpg',
-    name: { th: 'ชาดำร้อนฮอว์ธอร์นสตรอว์เบอร์รี', en: 'Hawthorn Strawberry Black Tea', zh: '山楂莓莓热红茶' }
+    name: { th: 'ซุปฟักทอง', en: 'Hawthorn Strawberry Black Tea', zh: '山楂莓莓热红茶' }
   },
   {
     id: 'm9', price: 50, rating: 4.7, type: ['hot'], category: 'drinks',
