@@ -24,7 +24,7 @@ export const menuData = [
   {
     id: 'm2', price: 55, rating: 4.7, type: ['hot', 'cold'], category: 'signature',
     image: '/Image/LINE_ALBUM_1382026_260813_2.jpg',
-    name: { th: 'ซุปฟักทองโมจิน้ำ', en: 'Water Mochi Pumpkin Paste', zh: '水麻薯南瓜糊' }
+    name: { th: 'ชากระท้อนหอมหมื่นลี้', en: 'Water Mochi Pumpkin Paste', zh: '水麻薯南瓜糊' }
   },
   {
     id: 'm3', price: 65, rating: 4.9, type: ['cold'], category: 'dessert',
@@ -119,7 +119,7 @@ export const menuData = [
   {
     id: 'm21', price: 65, rating: 4.8, type: ['hot', 'cold'], category: 'dessert',
     image: '/Image/LINE_ALBUM_1382026_260813_21.jpg',
-    name: { th: 'ซุปเห็ดหูหนูขาวสาลี่', en: 'Silver Ear Snow Pear Soup', zh: '银耳雪梨汤' }
+    name: { th: 'ซุปฟักเขียว', en: 'Silver Ear Snow Pear Soup', zh: '银耳雪梨汤' }
   },
   {
     id: 'm22', price: 55, rating: 4.7, type: ['hot', 'cold'], category: 'signature',
