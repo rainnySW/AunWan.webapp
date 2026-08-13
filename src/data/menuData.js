@@ -29,12 +29,12 @@ export const menuData = [
   {
     id: 'm3', price: 65, rating: 4.9, type: ['cold'], category: 'dessert',
     image: '/Image/LINE_ALBUM_1382026_260813_3.jpg',
-    name: { th: 'วุ้นเจลลี่น้ำแข็งบลูเบอร์รี่ป๊อป', en: 'Blueberry Boba Ice Jelly', zh: '蓝莓啵啵冰粉' }
+    name: { th: 'ชาลำไย', en: 'Blueberry Boba Ice Jelly', zh: '蓝莓啵啵冰粉' }
   },
   {
     id: 'm4', price: 45, rating: 4.5, type: ['hot', 'cold'], category: 'drinks',
     image: '/Image/LINE_ALBUM_1382026_260813_4.jpg',
-    name: { th: 'น้ำลูกเดือยเลมอน', en: 'Lemon Barley Water', zh: '柠檬薏米水' }
+    name: { th: 'ชาดำส้ม', en: 'Lemon Barley Water', zh: '柠檬薏米水' }
   },
   {
     id: 'm5', price: 55, rating: 4.6, type: ['hot'], category: 'signature',
@@ -44,12 +44,12 @@ export const menuData = [
   {
     id: 'm6', price: 55, rating: 4.8, type: ['hot', 'cold'], category: 'signature',
     image: '/Image/LINE_ALBUM_1382026_260813_6.jpg',
-    name: { th: 'ซุปนมมันม่วง', en: 'Purple Sweet Potato Milk Paste', zh: '紫薯奶糊' }
+    name: { th: 'วุ้นเจลลี่น้ำแข็งบลูเบอร์รี่ป๊อป', en: 'Purple Sweet Potato Milk Paste', zh: '紫薯奶糊' }
   },
   {
     id: 'm7', price: 40, rating: 4.5, type: ['cold'], category: 'dessert',
     image: '/Image/LINE_ALBUM_1382026_260813_7.jpg',
-    name: { th: 'มะเขือเทศเชอร์รี่แช่บ๊วย', en: 'Plum Cherry Tomato', zh: '话梅小番茄' }
+    name: { th: 'น้ำลูกเดือยเลม่อน', en: 'Plum Cherry Tomato', zh: '话梅小番茄' }
   },
   {
     id: 'm8', price: 55, rating: 4.9, type: ['hot'], category: 'drinks',
@@ -59,17 +59,17 @@ export const menuData = [
   {
     id: 'm9', price: 50, rating: 4.7, type: ['hot'], category: 'drinks',
     image: '/Image/LINE_ALBUM_1382026_260813_9.jpg',
-    name: { th: 'ชาดำร้อนส้ม', en: 'Orange Black Tea', zh: '橙香热红茶' }
+    name: { th: 'เผือกกวน', en: 'Orange Black Tea', zh: '橙香热红茶' }
   },
   {
     id: 'm10', price: 60, rating: 4.8, type: ['hot'], category: 'drinks',
     image: '/Image/LINE_ALBUM_1382026_260813_10.jpg',
-    name: { th: 'ชาขาวลำไย', en: 'Longan White Tea', zh: '龙眼老白茶' }
+    name: { th: 'ชาผลไม้รวม', en: 'Longan White Tea', zh: '龙眼老白茶' }
   },
   {
     id: 'm11', price: 65, rating: 4.9, type: ['hot'], category: 'drinks',
     image: '/Image/LINE_ALBUM_1382026_260813_11.jpg',
-    name: { th: 'ชาขาวสาลี่', en: 'Akizuki Pear White Tea', zh: '秋月梨老白茶' }
+    name: { th: 'ชาสตอเบอรี่', en: 'Akizuki Pear White Tea', zh: '秋月梨老白茶' }
   },
   {
     id: 'm12', price: 65, rating: 4.8, type: ['cold'], category: 'signature',
@@ -89,7 +89,7 @@ export const menuData = [
   {
     id: 'm15', price: 55, rating: 4.7, type: ['hot', 'cold'], category: 'dessert',
     image: '/Image/LINE_ALBUM_1382026_260813_15.jpg',
-    name: { th: 'สาคูมันม่วงน้ำกะทิ', en: 'Purple Sweet Potato Sago', zh: '紫薯西米糖水' }
+    name: { th: 'เผือกเชื่อม', en: 'Purple Sweet Potato Sago', zh: '紫薯西米糖水' }
   },
   {
     id: 'm16', price: 65, rating: 4.8, type: ['hot', 'cold'], category: 'signature',
@@ -104,7 +104,7 @@ export const menuData = [
   {
     id: 'm18', price: 55, rating: 4.6, type: ['cold'], category: 'dessert',
     image: '/Image/LINE_ALBUM_1382026_260813_18.jpg',
-    name: { th: 'วุ้นเจลลี่บัวลอยเผือก', en: 'White Taro Balls Ice Jelly', zh: '白芋丸子冰粉' }
+    name: { th: 'บัวลอยเผือก', en: 'White Taro Balls Ice Jelly', zh: '白芋丸子冰粉' }
   },
   {
     id: 'm19', price: 60, rating: 4.9, type: ['cold'], category: 'dessert',
