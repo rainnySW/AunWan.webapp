@@ -18,7 +18,7 @@ export default function HomePage() {
       style={{ padding: '2rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'center', marginTop: '2rem' }}
     >
       <img 
-        src="https://images.unsplash.com/photo-1557142046-c704a3adf364?auto=format&fit=crop&q=80&w=200" 
+        src="/icon.jpg" 
         alt="Logo" 
         style={{ width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover', border: '4px solid var(--primary-color)' }}
       />
