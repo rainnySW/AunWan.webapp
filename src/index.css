@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Colors based on PDF */
-  --primary-color: #0A48AD;
-  --secondary-color: #F2C94C;
-  --bg-color: #EADBD3;
-  --neutral-color: #D0D5E8;
+  /* Green, Pink, White Theme */
+  --primary-color: #2C6B59; /* Elegant Deep Green */
+  --secondary-color: #FF8BA7; /* Soft Pink */
+  --bg-color: #FAFAFA; /* Clean White/Off-White */
+  --neutral-color: #E2E8F0;
   
   --text-primary: #1A202C;
   --text-secondary: #4A5568;
   --surface-bg: rgba(255, 255, 255, 0.85);
   --surface-bg-solid: #ffffff;
-  --glass-border: rgba(255, 255, 255, 0.4);
-  --glass-shadow: 0 8px 32px 0 rgba(10, 72, 173, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(44, 107, 89, 0.1);
   
   --nav-bg: rgba(255, 255, 255, 0.9);
   --danger-color: #E53E3E;
@@ -22,8 +22,8 @@
 }
 
 [data-theme='dark'] {
-  --primary-color: #6398FF;
-  --secondary-color: #F2C94C;
+  --primary-color: #55B595; /* Brighter green for dark mode */
+  --secondary-color: #FF8BA7;
   --bg-color: #1A202C;
   --neutral-color: #2D3748;
   
@@ -51,8 +51,8 @@ body {
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   /* subtle pattern or gradient for background */
-  background-image: radial-gradient(circle at 10% 20%, rgba(10, 72, 173, 0.03) 0%, transparent 50%),
-                    radial-gradient(circle at 90% 80%, rgba(242, 201, 76, 0.05) 0%, transparent 50%);
+  background-image: radial-gradient(circle at 10% 20%, rgba(44, 107, 89, 0.04) 0%, transparent 50%),
+                    radial-gradient(circle at 90% 80%, rgba(255, 139, 167, 0.06) 0%, transparent 50%);
 }
 
 #root {
@@ -103,12 +103,12 @@ body {
 .btn-primary {
   background-color: var(--primary-color);
   color: white;
-  box-shadow: 0 4px 14px 0 rgba(10, 72, 173, 0.39);
+  box-shadow: 0 4px 14px 0 rgba(44, 107, 89, 0.3);
 }
 
 .btn-primary:hover {
-  background-color: #083c91;
-  box-shadow: 0 6px 20px rgba(10, 72, 173, 0.23);
+  background-color: #1E4E41;
+  box-shadow: 0 6px 20px rgba(44, 107, 89, 0.23);
 }
 
 [data-theme='dark'] .btn-primary {
@@ -117,7 +117,7 @@ body {
 
 .btn-secondary {
   background-color: var(--secondary-color);
-  color: #1A202C;
+  color: white; /* Pink button with white text looks better */
 }
 
 .btn-outline {
@@ -206,11 +206,11 @@ p {
 
 .nav-item.active svg {
   stroke: var(--primary-color);
-  fill: rgba(10, 72, 173, 0.1);
+  fill: rgba(44, 107, 89, 0.1);
 }
 
 [data-theme='dark'] .nav-item.active svg {
-  fill: rgba(99, 152, 255, 0.2);
+  fill: rgba(85, 181, 149, 0.2);
 }
 
 /* Cart Badge */
@@ -244,7 +244,7 @@ input, select {
 }
 input:focus, select:focus {
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(10, 72, 173, 0.1);
+  box-shadow: 0 0 0 3px rgba(44, 107, 89, 0.15);
 }
 
 /* Custom Scrollbar */
